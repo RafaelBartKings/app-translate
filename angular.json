@@ -6,7 +6,7 @@
     "app1": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "09f28bbf-5de7-4b6a-ab7e-039e7df96df5"
   }
 }
